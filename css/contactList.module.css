@@ -1,0 +1,98 @@
+/* .container {
+    margin-left:250px;
+    margin-top: 50px;
+} */
+
+
+
+.container {
+    /* display: flex;
+    list-style: none;
+    justify-content: space-between; */
+  margin-top: 50px;
+  border-collapse: collapse;
+ width: 90vw;
+ text-align: center;
+}
+
+.thead th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 2px solid green; */
+    color: wheat;
+    background-color: rgb(161, 123, 156);
+    text-align: center;
+    
+}
+.thead th:first-child{
+    border-top-right-radius: 15px;
+
+}
+.thead th:last-child{
+    border-top-left-radius: 15px;
+  
+}
+tbody {
+  text-align: right;
+    color: blue;
+
+}
+tbody td{
+    margin-left: 300px;
+    margin-right: 300px;
+    border-bottom: 5px solid pink;
+    box-shadow:inset 4px 4px 15px 0px #b0b6b6, -5px -8px 3px #f8f7f7 inset;
+    text-align: center;
+ width: 300px;
+}
+.contactInfo{
+    
+   
+    height: 100px;
+}
+.checkbox{
+    width: 20px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: left;
+    box-shadow: none;
+}
+
+
+
+
+.buttonFunctionEdit,.modalIgnoreButton{
+    background-color: yellow;
+    padding: 5px 2px;
+    border: none;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.buttonFunctionDelete,.modaldeleteButton{
+    background-color: red;
+    padding: 5px 2px;
+    border: none;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.buttonFunctionDelete:hover,.buttonFunctionEdit:hover{
+    border-radius: 10px;
+}
+
+.modal{
+    position: fixed;
+    width: 50%;
+    top: 20;
+    left: 0;
+    backdrop-filter: blur(5px);
+    height: 20vh;
+    background-color: #fdfdfd;
+    padding-top: 50px;
+    margin-left: 25%;
+    border-radius: 25px;
+}

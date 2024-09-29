@@ -1,0 +1,150 @@
+.container {
+  /* text-align: center; */
+  font-size: 1.5rem;
+  margin: none;
+  width: 100%;
+  height:200vh;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  top: 0;
+  left: 0;
+ 
+}
+form {
+  padding: 50px 10px;
+  box-shadow: 3px 0px 10px rgb(202, 204, 202);
+  /* border-radius: 20px; */
+  background-color: #dbdddf;
+  /* width: 700px; */
+
+  display: flex;
+  width: 100%;
+ flex-wrap: wrap;
+  position:fixed;
+  height: 500px;
+  border-radius: 100px;
+}
+
+.cross{
+ position: relative;
+  display: inline-block;
+  color: rgb(247, 238, 238);
+  cursor: pointer;
+  font-size: 4rem;
+  line-height: 40px;
+  margin-right: 0;
+  border-radius: 5px;
+  background-color: rgb(250, 10, 10);
+  text-align: center;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: blueviolet;
+}
+.container div {
+  padding: 20px 100px; 
+  margin-bottom: 25px; 
+  width: 700px;
+  height: 120px;
+}
+
+input {
+  width: 600px;
+ 
+  padding: 15px 10px;
+  margin-left:50px;
+  margin-right: 100px;
+  font-size: 2rem;
+  /* display: flex; */
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 5px 8px 3px #c5c5c3 inset, -5px -8px 3px #f8f7f7 inset;
+  background-color: #dbdddf;
+  /* margin-bottom: 15px; */
+}
+input:focus {
+  outline: 2px dashed #6a4c93;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  /* padding-bottom: 10px; */
+  font-size: 1.5rem;
+  background-color: rgb(6, 168, 243);
+  border: 3px solid transparent;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 600px;
+  cursor: pointer;
+  color: aliceblue;
+  transition: all 0.5s ease-in-out;
+  
+}
+
+.button:hover {
+  animation-name: buttonHover;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  /* animation-iteration-count: infinite;     */
+  animation-play-state: running;
+  transform: scale(1.2);
+}
+
+
+@keyframes buttonHover {
+  0% {
+    border-top: 3px solid #04f5e9;
+    border-right: 3px solid #be16a2;
+    border-bottom: 3px solid #91a38d;
+    border-left: 3px solid #a8b897;
+  }
+
+  50% {
+    border-top: 3px solid #fc728b;
+    border-right: 3px solid #fc506f;
+    border-bottom: 3px solid #fd3c62;
+    border-left: 3px solid #fa143f;
+  }
+  100% {
+    border-top: 3px solid #f57088;
+    border-right: 3px solid #18a2c4;
+    border-bottom: 3px solid #3df0e1;
+    border-left: 3px solid #04d9f5;
+  }
+}
+
+
+
+
+.accept{
+  background-color: #18c44c;
+  width: 100px;
+height: 50px;
+border: none;
+cursor: pointer;
+
+}
+.ignore{
+  background-color: rgb(214, 194, 139);
+  width: 100px;
+  border: none;
+  height: 50px;
+cursor: pointer;
+}
+
+.modal{
+  position: fixed;
+  top: 10;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+}

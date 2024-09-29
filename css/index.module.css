@@ -1,0 +1,79 @@
+.addContact img{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.addContact{
+    border-radius: 50px;
+    margin-right: 20px;
+    transition: all 0.5s;
+    box-shadow: 5px 8px 15px #888887 , -5px -8px 10px #b6b0b0 ;
+    border: none;
+    /* margin-left: 20px; */
+}
+/* .editContact img{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+}
+.editContact {
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.5s;
+    box-shadow: 5px 8px 15px #888887 , -5px -8px 15px #b6b0b0 ;
+    border: none;
+    cursor: pointer;
+} */
+.addContact:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+}
+
+.function{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.itemsDeleteButton{
+    border-radius: 50px;
+    margin-right: 20px;
+    transition: all 0.5s;
+    box-shadow: 5px 8px 15px #888887 , -5px -8px 10px #b6b0b0 ;
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: rgb(165, 11, 37);
+    transition: all 0.5s ease;
+    margin-left: 120px;
+    width: 60px;
+    height: 60px;
+    font-weight: 700;
+}
+
+.itemsDeleteButton:hover{
+    cursor: pointer;
+    background-color: rgb(224, 133, 133);
+    color: white;
+}
+
+.selectedforDeleteButton{
+    border-radius: 50px;
+    margin-right: 20px;
+    transition: all 0.5s;
+    box-shadow: 5px 8px 15px #888887 , -5px -8px 10px #b6b0b0 ;
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: rgb(228, 67, 94);
+    transition: all 0.5s ease;
+    margin-left: 120px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    font-weight: 700;
+}
